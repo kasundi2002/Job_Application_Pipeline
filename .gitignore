@@ -1,0 +1,4 @@
+# Ignore environment and credential files
+backend/.env
+backend/credentials.json
+backend/service_account.json
