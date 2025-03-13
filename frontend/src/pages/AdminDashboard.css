@@ -1,0 +1,33 @@
+.dashboard-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
