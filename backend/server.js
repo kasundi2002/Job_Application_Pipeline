@@ -63,8 +63,8 @@ const auth = new google.auth.GoogleAuth({
 const sheets = google.sheets({ version: "v4", auth });
 const drive = google.drive({ version: "v3", auth });
 
-const SPREADSHEET_ID = "your_google_sheet_id_here"; // Replace with actual ID
-const SHEET_NAME = "CV_Data"; // Sheet name where CVs are stored
+const SPREADSHEET_ID = "1n6FWIv4JhvDWi49at8TNNUiZQBBTLguXsQ_IsWy_fLA"; // Replace with actual ID
+const SHEET_NAME = "Job_CV_Pipeline"; // Sheet name where CVs are stored
 
 // Route to Fetch CV Data for Admin Dashboard
 app.get("/admin/cvs", async (req, res) => {

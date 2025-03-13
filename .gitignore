@@ -2,3 +2,4 @@
 backend/.env
 backend/credentials.json
 backend/service_account.json
+backend/venv/

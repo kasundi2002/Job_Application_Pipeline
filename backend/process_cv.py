@@ -9,13 +9,13 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
 # Load Google Sheets API credentials
-SERVICE_ACCOUNT_FILE = "google_sheets_credentials.json"
+SERVICE_ACCOUNT_FILE = "credentials.json"
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
 # Google Sheets Setup
-SPREADSHEET_ID = "your_google_sheet_id_here"
-SHEET_NAME = "CV_Data"
+SPREADSHEET_ID = "1n6FWIv4JhvDWi49at8TNNUiZQBBTLguXsQ_IsWy_fLA"
+SHEET_NAME = "Job_CV_Pipeline"
 service = build("sheets", "v4", credentials=creds)
 sheet = service.spreadsheets()
 
